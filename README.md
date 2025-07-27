@@ -16,10 +16,10 @@ This repository serves as the guide to run and configure the [AppvSurveyClient](
 Your-Project-Folder/
 ├── AppvSurveyAPI/          # Spring Boot API
 │   ├── build/libs/         # JAR file will be here after build
-│   ├── Dockerfile          # Already included
+│   ├── Dockerfile          
 │   └── ... (source code)
 ├── AppvSurveyClient/       # Angular Frontend  
-│   ├── Dockerfile          # Already included
+│   ├── Dockerfile          
 │   └── ... (source code)
 ├── docker-compose.yml      # Container configuration
 └── .env                    # Environment variables
