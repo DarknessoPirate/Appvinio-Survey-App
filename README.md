@@ -112,7 +112,9 @@ docker-compose logs
 
 # Rebuild after code changes
 docker-compose down
-docker-compose build --no-cache
+docker-compose build --no-cache # rebuild everything
+docker-compose build --no-cache api # rebuild just api
+docker-compose build --no-cache frontend # rebuild just client
 docker-compose up
 
 # Clean everything and start fresh
